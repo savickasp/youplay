@@ -9,3 +9,18 @@ main {
     background: grey;
 }
 
+.romb {
+    height: 200px;
+    transform: skew(-7deg);
+    background: red;
+    width: 100%;
+}
+
+.bg-black-filter  {
+    background-color:  rgba(255,255,255,.1);
+}
+
+.bg-youplay-demo    {
+    background-color: rgba(8,3,37,.9);
+}
+
