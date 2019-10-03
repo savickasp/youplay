@@ -1,3 +1,11 @@
-div {
-    background-color: red;
+body {
+    background-color: rgb(51, 32, 94);
 }
+
+
+main {
+    width: 90vw;
+    margin: 0 auto;
+    background: grey;
+}
+
