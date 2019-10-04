@@ -1,7 +1,6 @@
 body {
-    background-color: rgb(51, 32, 94);
+    background-color: rgba(8, 3, 37, .9);
 }
-
 
 main {
     width: 90vw;
@@ -9,3 +8,98 @@ main {
     background: grey;
 }
 
+header {
+    background-color: #0A0526;
+    position: sticky;
+    top: 0;
+}
+
+#brand {
+    max-height: 30px;
+}
+
+.nav-style {
+    height: 8vh;
+    width: 82.5%;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+/* end of nav  */
+
+/* cover  */
+
+.banner {
+    background: url(../images/banner-bg.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 70vh;
+    /* margin-top: -5rem; */
+}
+
+.btn {
+    padding: 15px 40px;
+    height: 50px;
+    width: 180px;
+    transform: skew(-7deg);
+    color: white;
+    border-radius: 0;
+}
+
+.btn-active {
+    background-color: red;
+}
+
+.btn-inactive {
+    border: 2px solid white;
+}
+
+.btn-inactive:hover {
+    background-color: red;
+    border: none;
+}
+
+.banner-content {
+    color: white;
+    padding: 90px 0;
+}
+/* end of banner  */
+
+
+
+/* start of purchase offer before footer  */
+.offer {
+    background: url(../images/game-bloodborne-1920x1151.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 90vh;
+    color: white;
+}
+
+
+footer {
+    background: url(../images/footer-bg.jpg);
+    color: white;
+    height: 60vh;
+}
+
+.card-social {
+    color: white;
+    width: 150px;
+    height: 180px;
+    margin: 0 10px;
+}
+
+.card-wrap {
+    background-color: rgba(0, 0, 0, .3);
+    height: 60%;
+    transform: skew(-7deg);
+}
