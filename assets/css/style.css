@@ -1,7 +1,6 @@
 body {
-    background-color: rgb(51, 32, 94);
+    background-color: rgba(8, 3, 37, .9);
 }
-
 
 main {
     width: 90vw;
@@ -9,6 +8,11 @@ main {
     background: grey;
 }
 
+header {
+    background-color: #0A0526;
+    position: sticky;
+    top: 0;
+}
 .romb {
     height: 200px;
     transform: skew(-7deg);
@@ -16,6 +20,62 @@ main {
     width: 100%;
 }
 
+#brand {
+    max-height: 30px;
+}
+
+.nav-style {
+    height: 8vh;
+    width: 82.5%;
+}
+
+.nav-item {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: grey;
+    text-decoration: none;
+}
+/* end of nav  */
+
+/* cover  */
+
+.banner {
+    background: url(../images/banner-bg.jpg) no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 70vh;
+    /* margin-top: -5rem; */
+}
+
+.btn  {
+    padding: 15px 40px;
+    height: 50px;
+    width: 180px;
+    transform: skew(-7deg);
+    color: white;
+    border-radius: 0;
+}
+
+.btn-active {
+    background-color: red;
+}
+
+.btn-inactive {
+    border: 2px solid white;
+}
+
+.btn-inactive:hover {
+    background-color: red;
+    border: none;
+}
+
+.banner-content {
+    color: white;
+    padding: 90px 0;
+}
 .bg-black-filter  {
     background-color:  rgba(255,255,255,.1);
 }
