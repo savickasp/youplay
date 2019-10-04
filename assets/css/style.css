@@ -13,6 +13,12 @@ header {
     position: sticky;
     top: 0;
 }
+.romb {
+    height: 200px;
+    transform: skew(-7deg);
+    background: red;
+    width: 100%;
+}
 
 #brand {
     max-height: 30px;
@@ -70,6 +76,60 @@ header {
 .banner-content {
     color: white;
     padding: 90px 0;
+}
+.bg-black-filter  {
+    background-color:  rgba(255,255,255,.1);
+}
+
+.bg-youplay-demo    {
+    background-color: rgba(8,3,37,.9);
+}
+
+.text-white {
+    color: white;
+}
+
+.text-grey   {
+    color: rgb(135, 135, 135);
+}
+
+.img-demo-size  {
+    object-fit: cover;
+    width: 90%;
+    height: auto;
+}
+
+em  {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.image-features {
+    background-attachment: initial;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.bg-features   {
+    background: url(../images/game-dark-souls-ii-1920x1080.jpg) no-repeat;
+    background-position: 50% 25%;
+    background-size: 100% auto;
+    height: 70vh;
+}
+/* klase naudojau sukurti violetiniam nuotraukos atspalviui */
+.shadow    {
+    background-color: rgba(51, 32, 94, 0.55);
+    width: 100%;
+    height: 100%;
+}
+.bg-questions   {
+    background-color: rgba(8,3,37,.9);
+}
+.link-question  {
+    text-decoration: underline;
+}
+.link-question:hover  {
+    color: red;
 }
 /* end of banner  */
 
